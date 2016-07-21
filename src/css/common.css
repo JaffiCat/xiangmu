@@ -1,0 +1,39 @@
+/* CSS Document */
+/* --------------------------------重置默认样式------------------------------------------- */
+body,h1,h2,h3,h4,h5,h6,dl,dt,dd,ul,ol,li,th,td,p,fieldset,legend,input,button,textarea,hr{margin:0;padding:0}
+body,button,input,select,textarea{ font:12px/1.5 "宋体",arial,verdana, sans-serif}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+li{list-style:none}
+fieldset,img{border:0}
+table{border-collapse:collapse;border-spacing:0}
+hr{border:none;height:1px}
+a{text-decoration:none}
+a:hover{text-decoration:none;color:#ff0033;}
+/* --------------------------------header------------------------------------------- */
+.header-box{border-bottom:1px solid #dddddd;height:29px;}
+.header{padding:0 2px 0 7px;background:#f5f5f5;margin:0 auto;
+width:1193px;}
+.header a,li{color:#565656;line-height:29px;}
+.header a:hover{color:#ff0033;}
+.header li{margin-left:13px;}
+.headerLeft b{margin-right:19px;}
+.headerLeft b a{color:#ff0033;}
+.headerLeft{float:left;}
+.headerRight{float:right;}
+.headerRight .zhuce a{color:#c70a28;}
+.headerRight li{float:left;}
+.header .headerRight .bg-li{background:url(img/bgli.jpg) no-repeat left;padding-left:17px;}
+/*----------------------------Logo----------------------------------*/
+.logo-box{height:133px;}
+.logo{padding-top:18px;margin:0 auto;width:1202px;}
+.logo .logo-img{float:left;margin-top:9px;}
+.logo .search{width:492px;height:60px;float:left;margin-left:95px;margin-top:9px;}
+.logo .search-con{width:492px;height:36px;}
+.logo .logo-txt{border:2px solid #c80a28;width:403px;height:32px;float:left;}
+.logo .logo-btn{border:none;width:85px;height:36px;background:#c80a28;float:right;color:#ffffff;font-size:16px;}
+.logo .search-nav li{float:left;margin-right:6px;margin-top:3px;color:#c299c2;}
+.logo .search-nav li a{color:#666666;font-family:'微软雅黑';}
+.logo .search-nav li a:hover{text-decoration:none;color:#ff0033;}
+.logo .code{width:100px;height:115px;float:left;margin-left:170px;}
+.logo .code p{color:#ff0032;font-weight:bolder;line-height:21px;height:21px;}
+

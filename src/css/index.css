@@ -1,0 +1,36 @@
+/* CSS Document */
+/*----------------------------banner------------------------------------*/
+.banner-box{
+				height:450px;
+				position:relative;
+				 width:100%;
+				 overflow: hidden;}
+.banner-box .pic {
+				width: 1563px;
+				left:50%;
+				position:absolute;	
+				margin-left:-631px; 
+			}
+.banner-box .pic ul li {
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+.banner-box .pic ul li img{width:100%}
+.banner-box .banner-nav {
+				position: absolute;
+				right: 374px;
+				bottom: 6px;
+			}
+.banner-box .banner-nav ul li {
+				width: 120px;
+				height: 30px;
+				float: left;
+				margin-left: 10px;
+				background:#ffffff;
+				text-align:center;
+			}
+.banner-box .banner-nav ul li.select{
+				background: #333333;
+				color:#ffffff;
+			}
