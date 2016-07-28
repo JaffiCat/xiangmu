@@ -1,0 +1,360 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>购物车</title>
+<link rel='stylesheet' type='text/css' href='../css/common.css'/>
+<link rel='stylesheet' type='text/css' href='../css/cart.css'/>
+<script src="../js/jquery-1.12.0.js"></script>
+<script src="../js/common.js"></script>
+<script src="../js/cart.js"></script>
+</head>
+<body>
+<!--******************header***********************-->
+<div class="header-box">
+	<div class="header">
+		<div class="headerLeft">
+			<b><a href="../index.html">返回回首页</a></b>
+			<a href="#">收藏网站</a>
+		</div>
+		<ul class="headerRight">
+			<li>您好，欢迎光临韩都衣舍！</li>
+			<li><a href="signIn.html" target="_blank">登录</a></li>
+			<li class="zhuce"><a href="login.html" target="_blank">注册</a></li>
+			<li><a href="#" target="_blank">购物车</a></li>
+			<li>|</li>   
+			<li><a href="#">在线客户</a></li>
+			<li><a href="#">帮助中心</a></li>
+			<li class="bg-li showOrhide"><a href="#">网站导航</a></li>
+		</ul>
+	</div>
+</div>
+<!--*************hidenav****************-->
+<div class="hidebox">
+    <div class="hidenav">
+      <div class="hot">
+          <h1>大家都在买<span>Hot</span></h1>
+          <ul>
+                <li><a href="#">t恤</a></li>
+                <li><a href="#">连衣裙</a></li>
+                <li><a href="#">牛仔裤</a></li>
+                <li><a href="#">毛衣针织</a></li>
+                <li><a href="#">卫衣绒衫</a></li>
+                <li><a href="#">休闲套装</a></li>
+           </ul>
+        </div>
+      <div class="women">
+          <h1>女装<span>Women</span></h1>
+          <ul>
+                <li><a href="#">韩风快时尚女装</a></li>
+                <li><a href="#">韩风快时尚妈妈装</a></li>
+                <li><a href="#">韩风甜美少女装</a></li>
+                <li><a href="#">东方复古设计师女装</a></li>
+                <li><a href="#">韩风名媛时尚女装</a></li>
+                <li><a href="#">欧美浪漫田园风女装</a></li>
+                <li><a href="#">韩风大码女装</a></li>
+                <li><a href="#">欧美快时尚女装</a></li>
+            </ul>
+        </div>
+      <div class="men">
+          <h1>男装<span>Men</span></h1>
+          <ul>
+                <li><a href="#">韩风快时尚男装</a></li>
+                <li><a href="#">东方禅意设计师男装</a></li>
+                <li><a href="#">欧美街头轻潮男装</a></li>
+            </ul>
+        </div>
+      <div class="child">
+          <h1>童装<span>Children</span></h1>
+          <ul>
+                <li><a href="#">韩风快时尚童装</a></li>
+                <li><a href="#">东方简约设计师童装</a></li>
+            </ul>
+        </div>
+      <div class="help">
+          <h1>帮助中心<span>Help</span></h1>
+          <ul>
+                <li><a href="#">会员制度</a></li>
+                <li><a href="#">售后服务</a></li>
+                <li><a href="#">购物流程</a></li>
+                <li><a href="#">关于发票</a></li>
+                <li><a href="#">配送方式</a></li>
+                <li><a href="#">韩都招聘</a></li>
+            </ul>
+        </div>
+    </div>
+  </div>
+<!--***********cartlogo*************-->
+<div class="cartlogo">
+	<div class="logocon">
+		<div class="logo">
+			<a href="#"></a>
+		</div>
+		<div class="payordercon">
+			<div class="payorder">
+			</div>
+		</div>	
+	</div>
+</div>
+<div class="tishi">
+		<div class="tishicon">
+			<p>
+				<em>温馨提示：</em>
+				现在<a href="#">&nbsp;登录&nbsp;</a>
+				,把心仪的商品保存在“购物车”
+			</p>
+		</div>
+</div>
+<!--***********cart*************-->
+<div class="cart">
+	<div class="cartcon">
+		<table>
+			<tr style="height:35px;background:#d7d6d6;font-size:13px;">
+				<td width="383px">商品名称</td>
+				<td width="131px">售价</td>
+				<td width="132px">数量</td>
+				<td width="122px">小计</td>
+				<td width="134px">操作</td>
+				<td width="186px">备注</td>
+				<td width="111px"></td>
+			</tr>
+			<tr class="producttitle"><td>品牌：HSTYLE女装</td></tr>
+			
+			
+		</table>
+		<div class="jisuan">
+			<div class="jisuancon">
+				<ul>
+					<li class="jisuanliang"><div class="zongji"><b>0</b>件商品&nbsp;&nbsp;&nbsp;&nbsp;总计：</div><span>￥<i>0</i></span></li>
+					<li><div class="manlijian">满立减：</div><span>-￥<i>0.00</i></span></li>
+					<li><div class="shuifei">税费：</div><span>-￥<i>0.00</i></span></li>
+				</ul>
+			</div>
+		</div>
+		<div class="zj">
+			<p>
+				购物金额总计：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>￥<i>0</i></span>
+			</p>
+		</div>
+		<div class="paybtn">
+			<input type="button" id="continuebtn"/>
+			<input type="button" id="jiesuanbtn"/>
+		</div>
+	</div>
+</div>
+<!--*****************tuijian***************-->
+<div class="tuijian">
+	<div class="tuijiancon">
+		<h4>韩都官网为您推荐<span class="lastshoucang">最近收藏的</span><span class="liulan">最近浏览过的商品</span></h4>
+		<ul class="tuijianbox">
+			<li>
+				<a href="#"><img width="180px" height="180px" src="../img/tuijian1.jpg">
+					<p class="words">韩都衣舍2016韩女秋新款大气修身显瘦连衣裙GY5540娋</p>
+				</a>
+				<span>258.00</span>
+			</li>
+			<li>
+				<a href="#"><img width="180px" height="180px" src="../img/tuijian1.jpg">
+					<p class="words">韩都衣舍2016韩女秋新款大气修身显瘦连衣裙GY5540娋</p>
+				</a>
+				<span>258.00</span>
+			</li>
+			<li>
+				<a href="#"><img width="180px" height="180px" src="../img/tuijian1.jpg">
+					<p class="words">韩都衣舍2016韩女秋新款大气修身显瘦连衣裙GY5540娋</p>
+				</a>
+				<span>258.00</span>
+			</li>
+			<li>
+				<a href="#"><img width="180px" height="180px" src="../img/tuijian1.jpg">
+					<p class="words">韩都衣舍2016韩女秋新款大气修身显瘦连衣裙GY5540娋</p>
+				</a>
+				<span>258.00</span>
+			</li>
+			<li>
+				<a href="#"><img width="180px" height="180px" src="../img/tuijian1.jpg">
+					<p class="words">韩都衣舍2016韩女秋新款大气修身显瘦连衣裙GY5540娋</p>
+				</a>
+				<span>258.00</span>
+			</li>
+			<li>
+				<a href="#"><img width="180px" height="180px" src="../img/tuijian1.jpg">
+					<p class="words">韩都衣舍2016韩女秋新款大气修身显瘦连衣裙GY5540娋</p>
+				</a>
+				<span>258.00</span>
+			</li>
+		</ul>
+		<ul class="shoucangbox">
+			<li>
+				<a href="#"><img width="180px" height="180px" src="../img/tuijian2.jpg">
+					<p class="words">韩都衣舍2016韩女秋新款大气修身显瘦连衣裙GY5540娋</p>
+				</a>
+				<span>258.00</span>
+			</li>
+			<li>
+				<a href="#"><img width="180px" height="180px" src="../img/tuijian2.jpg">
+					<p class="words">韩都衣舍2016韩女秋新款大气修身显瘦连衣裙GY5540娋</p>
+				</a>
+				<span>258.00</span>
+			</li>
+			<li>
+				<a href="#"><img width="180px" height="180px" src="../img/tuijian2.jpg">
+					<p class="words">韩都衣舍2016韩女秋新款大气修身显瘦连衣裙GY5540娋</p>
+				</a>
+				<span>258.00</span>
+			</li>
+			<li>
+				<a href="#"><img width="180px" height="180px" src="../img/tuijian2.jpg">
+					<p class="words">韩都衣舍2016韩女秋新款大气修身显瘦连衣裙GY5540娋</p>
+				</a>
+				<span>258.00</span>
+			</li>
+			<li>
+				<a href="#"><img width="180px" height="180px" src="../img/tuijian2.jpg">
+					<p class="words">韩都衣舍2016韩女秋新款大气修身显瘦连衣裙GY5540娋</p>
+				</a>
+				<span>258.00</span>
+			</li>
+		</ul>
+	</div>
+</div>
+<!--**********************footer******************-->
+<div class="footer">
+	<div class="sendgoods">
+		<ul class="bigsend">
+			<li>
+				<h4 class="newhand"></h4>
+				<ul class="smallsend">
+					<li><a href="#">用户注册</a></li>
+					<li><a href="#">购物流程</a></li>
+					<li><a href="#">网站导航</a></li>
+					<li><a href="#">帮助中心</a></li>
+				</ul>
+			</li>
+			<li>
+				<h4 class="payway"></h4>
+				<ul class="smallsend">
+					<li><a href="#">在线支付</a></li>
+					<li><a href="#">货到付款</a></li>
+					<li><a href="#">扫码支付</a></li>
+					<li><a href="#">优惠券支付</a></li>
+				</ul>
+			</li>
+			<li>
+				<h4 class="sentto"></h4>
+				<ul class="smallsend">
+					<li><a href="#">配送说明</a></li>
+					<li><a href="#">运费说明</a></li>
+					<li><a href="#">验货签收</a></li>
+					<li><a href="#">货到付款</a></li>
+				</ul>
+			</li>
+			<li>
+				<h4 class="shouhou"></h4>
+				<ul class="smallsend">
+					<li><a href="#">退换货政策</a></li>
+					<li><a href="#">退换货流程</a></li>
+				</ul>
+			</li>
+			<li>
+				<h4 class="vipcenter"></h4>
+				<ul class="smallsend">
+					<li><a href="#">会员制度</a></li>
+					<li><a href="#">会员积分</a></li>
+					<li><a href="#">好评有礼</a></li>
+				</ul>
+			</li>
+			<li>
+				<h4 class="aboutus"></h4>
+				<ul class="smallsend">
+					<li><a href="#">品牌故事</a></li>
+					<li><a href="#">媒体报道</a></li>
+					<li><a href="#">诚聘英才</a></li>
+					<li><a href="#">联系我们</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<div class="footnav">
+		<ul class="footnavcon">
+			<li><a href="#">首页</a>|</li>
+			<li><a href="#">品牌故事</a>|</li>
+			<li><a href="#">品牌故事</a>|</li>
+			<li><a href="#">品牌故事</a>|</li>
+			<li><a href="#">品牌故事</a>|</li>
+			<li><a href="#">品牌故事</a>|</li>
+			<li><a href="#">品牌故事</a>|</li>
+		</ul>
+	</div>
+	<div class="icp">
+		<img src="../img/lugongan.gif"/><b>鲁ICP备14003322号-2 © 2006-2015 handu.com All Rights Reserved.</b>
+		<a href="#"><img src="../img/gongan.png"/><span>鲁公网安备 37010202000113号</span></a>
+		<b>山东韩都衣舍电商集团有限公司，禁止非法复制</b>
+		<a href="#"><img src="../img/movepic.gif"/></a>
+	</div>
+	<div class="footpic">
+		<img src="../img/zhifubao.jpg"/>
+		<a href="#"><img src="../img/jingying.jpg"/></a>
+		<a href="#"><img src="../img/kxwz.png"/></a>
+		<img id="cctv" src="../img/cctv.png"/>
+	</div>	
+</div>
+
+<!--*****************rightfloat*************-->
+<div class="floatbox">
+  <div class="app"></div>
+  <a href="#" class="a1"></a>
+  <a href="#" class="a2"></a>
+  <a href="#" class="a3"></a>
+  <a href="#" class="a4"></a>
+  <a href="#" class="a5"></a>
+</div>
+<!--******************Topfloat***********-->
+<div id="floattop">
+  <div class="topsearchcon">
+        <div class="searchlogo"><img src="../img/touminglogo.png"/></div>
+        <div id="topsearch">
+
+            <div class="inputbox">
+                <input type="text" class="floattext" value="连衣裙"/>
+                <input type="submit" value="搜索" class="floatbtn"/>
+            </div>
+
+        </div>  
+        <div class="searchword">没空去韩国？就来韩都衣舍！</div>
+    </div>
+</div>
+<!--*********************************END*******************************************-->
+</body>
+<!--***
+<tr class="productlist">
+				<td class="piccon">
+					<div class="productpic">
+						<a hreff="#"><img src="../img/cartgirl.jpg"/></a>
+					</div>
+					<div class="productword">
+						<p>韩都衣舍2016韩版女装秋装新款印花修身两件套连衣裙OU6526</p>
+						<span>颜色:白色</span>&nbsp;&nbsp;&nbsp;<span>尺寸:S</span>
+					</div>
+				</td>
+				<td class="shoujia">
+					<del>￥468.00</del>
+					<p>￥112</p>
+				</td>
+				<td class="num">
+					<span class="jian">-</span>
+					<input type="text" id="numtxt" value="1"/>
+					<span class="jia">+</span>
+				</td>
+				<td class="allmoney">
+					<p>￥112.00</p>
+				</td>
+				<td class="caozuo">
+					<a href="#">移入收藏夹</a><br>
+					<a href="#" id="removetr">删除</a>
+				</td>
+				<td class="zhubei"><a href="#">【大牌特惠】全场满199包邮，夏装特惠低至38元，领券再享满199-20；满369-50；满569-100，立即抢购！
+~~</a></td>
+				<td></td>
+			</tr>
+***-->

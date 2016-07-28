@@ -1,0 +1,23 @@
+/*----------zhucebanner---------------*/
+.zhucebannerbox{height:80px;}
+.zhuccebanner{width:1202px;height:60px;padding-top:20px;margin:0 auto;text-align:center;}
+/*----------denglu---------------*/
+.denglubox{height:485px;font-family:'微软雅黑';}
+.denglucon{width:1202px;margin: 0 auto;}
+.dengluleft{float:left;width:510px;height:470px;border-right:1px dashed #e1e1e1;background:url(img/zhucepic.png) no-repeat 50px 60px;}
+.dengluright{float:left;width:690px;height:470px;}
+.dengluul li{float:left;margin-top:10px;}
+.dengluul li:first-child{margin-top:50px;}
+.dengluul li:last-child{margin-left:80px;}
+.dengluul li a{color:#5e5e5e;text-decoration:underline;}
+.signincon{width:300px;height:345px;padding:20px 40px 0 40px;border:4px solid #eee;margin:22px 0 0 77px;}
+.signincon h3{width:100%;height:30px;font-size:19px;border-bottom:solid 1px #eee;color:#666;}
+.dengluname{float:left;width:75px;line-height:33px;font-size:14px;text-align:right;color:#424242;}
+.dengluname input{float:left;}
+.dengluul a,.dengluul span{float:left;}
+#usernametxt,#password{width:207px;height:33px;border:1px solid #e0e0e0;}
+#yanzhengma{width:120px;height:30px;border:1px solid #bebebe;}
+#denglubtn{width:140px;height:35px;background:#c11533;color:#ffffff;border:none;text-align:center;}
+.marginleft{margin-left:70px;}
+.dengluway{vertical-align:middle;width:610px;height:30px;line-height:30px;padding-left:80px;margin-top:10px;}
+.dengluway a{margin-right:10px;}

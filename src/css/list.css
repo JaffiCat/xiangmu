@@ -1,0 +1,61 @@
+/*--------------shoplist------------------*/
+.shoplist{height:4100px;}
+.shoplistcon{height:4100px;width:1202px;margin:0 auto;}
+.listleft{width:182px;height:1376px;float:left;}
+.bigul li h2{width:170px;height:38px;padding-left:10px;border:1px solid #eee;font-size:14px;line-height:38px;position:relative;cursor:pointer;}
+.bigul li i {background:url(img/jiantou.png) no-repeat -2px -6px;width: 5px;height: 8px;right: 11px;position: absolute;
+top: 18px;}
+.middleul li h3{line-height:26px;width:160px;height:26px;padding-left:20px;background:url(img/jiahao.png) no-repeat 10px 50%;cursor:pointer;}
+.middleul{display:none;}
+.smallul{display:none;}
+.smallul li{line-height:26px;width:170px;height:26px;padding-left:10px;cursor:pointer;}
+.bigul .renqi{width:170px;color:#ffffff;height:25px;line-height:25px;background:#333333;padding-left:10px;}
+
+.listright{width:1000px;height:2000px;background:white;float:left;margin-left:18px;}
+.listright .weizhi a{color:#333333;height:16px;line-height:16px;}
+.paixu{width:998px;height:30px;border:1px solid #dddddd;margin-top:25px;}
+.paixunav li{width:80px;height:30px;border-right:1px solid #eee;text-align:center;float:left;}
+.paixunav li a{position:relative;width:80px;height:30px;color:#565656;}
+.paixunav li:hover{background:#fafafa;}
+.paixunav li i{background:url(../css/img/sxjt.png) no-repeat -1px -1px;position: absolute;right: -10px;top: 5px;width: 7px;height: 8px;display:block;}
+.fanwei{width:100px;height:30px;float:left;margin:3px 0 0 40px;}
+.fanwei input{width:39px;height:20px;border:1px solid #eee;}
+.fanwei .buttonbox{width:92px;height:30px;padding-top:6px;padding-left:6px;display:none;position:absolute;z-index:99;}
+.fanwei #queding{background:#c80a28;color:#ffffff;}
+.shopcheck{ float: left; margin:0 14px; line-height: 30px;}
+.changepage{float:right;padding:6px 8px;font:12px 'arial';color:#666;position: relative;}
+.changepage .arr{font-weight:bold;padding:1px 3px 0;border:1px solid #CCC;vertical-align:bottom;cursor:pointer;margin-right:5px}
+.changepage .arr:hover{background:#e9e9e9}
+/*-----------------list-item------------------*/
+.everyone{width:238px;height:371px;border:1px solid #dddddd;float:left;margin:6px 4px;position:relative;z-index:1;}
+.everyone .oneptop{width:222px;height:315px;padding:8px 8px 0 8px;border-bottom:1px solid #eee;overflow:hidden;}
+.everyone a img{width:222px;}
+.everyone .smallpic{width:30px;height:30px;padding:1px 1px;border:1px solid #cccccc;}
+.everyone .smallpic a img{width:30px;height:30px;}
+.productPrice{line-height:30px;}
+.productPrice .nowprice{font-size:15px;color:#c80a28;font-weight:bolder;}
+.productPrice .qian{font-size:10px;color:#c80a28;}
+.productPrice .delprice{color:#999999;font-size:9px;}
+.productTitle{width:228px;}
+.productTitle a{color:#333333;line-height:20px;font-family:'微软雅黑';}
+.onebottom span{display:block;width:117px;height:47px;border-right:1px solid #eee;float:left;text-align:center;color:#999999;}
+.onebottom .r{border-right:none;}
+.onebottom span em{font-style:normal;color:#b57c5b;font-weight:bolder;}
+.onebottom .r a{color:#3388bb;font-weight:bolder;}
+.everyone:hover{border:2px solid #c80a28;height:392px;width:236px;z-index:5px;}
+.everyone:hover .oneptop{height:335px;}
+.everyonebox{width:1000px;height:403px;padding-top:10px;position:relative;z-index:5px;}
+.everyonebox2{width:1000px;height:403px;padding-top:10px;top:-20px;position:relative;z-index:5px;}
+.everyonebox3{width:1000px;height:403px;padding-top:10px;top:-40px;position:relative;}
+.bigbox{width:1000px;height:4000px;position:relative;}
+.everyonebox4{width:1000px;height:403px;padding-top:10px;top:-60px;position:relative;}
+.everyonebox5{width:1000px;height:403px;padding-top:10px;top:-80px;position:relative;}
+.everyonebox6{width:1000px;height:403px;padding-top:10px;top:-100px;position:relative;}
+.everyonebox7{width:1000px;height:403px;padding-top:10px;top:-120px;position:relative;}
+.everyonebox8{width:1000px;height:403px;padding-top:10px;top:-140px;position:relative;}
+.everyonebox9{width:1000px;height:403px;padding-top:10px;top:-160px;position:relative;}
+.everyonebox10{width:1000px;height:403px;padding-top:10px;top:-180px;position:relative;}
+.page{width:1000px;height:403px;padding-top:10px;top:-180px;position:relative;text-align:center;}
+/*-----------------page--------------------*/
+.page span{width:35px;height:35px;border:1px solid #ddd;text-align:center;margin:0 6px;display:inline-block;line-height:35px;}
+#nextpage{width:62px;height:35px;}

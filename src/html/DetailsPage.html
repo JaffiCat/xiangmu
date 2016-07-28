@@ -1,0 +1,715 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>详情页</title>
+<link rel='stylesheet' type='text/css' href='../css/common.css'>
+<link rel='stylesheet' type='text/css' href='../css/detailsPage.css'>
+<script src="../js/jquery-1.12.0.js"></script>
+<script src="../js/common.js"></script>
+<script src="../js/detailsPage.js"></script>
+</head>
+<body>
+<!--*****************************header************************************-->
+<div class="header-box">
+	<div class="header">
+		<div class="headerLeft">
+			<b><a href="../index.html">返回回首页</a></b>
+			<a href="#">收藏网站</a>
+		</div>
+		<ul class="headerRight">
+			<li>您好，欢迎光临韩都衣舍！</li>
+			<li><a href="signIn.html" target="_blank">登录</a></li>
+			<li class="zhuce"><a href="login.html" target="_blank">注册</a></li>
+			<li><a href="cart.html" target="_blank">购物车</a></li>
+			<li>|</li>   
+			<li><a href="#">在线客户</a></li>
+			<li><a href="#">帮助中心</a></li>
+			<li class="bg-li showOrhide"><a href="#">网站导航</a></li>
+		</ul>
+	</div>
+</div>
+<!--*****************************hidenav************************************-->
+<div class="hidebox">
+    <div class="hidenav">
+      <div class="hot">
+          <h1>大家都在买<span>Hot</span></h1>
+          <ul>
+                <li><a href="#">t恤</a></li>
+                <li><a href="#">连衣裙</a></li>
+                <li><a href="#">牛仔裤</a></li>
+                <li><a href="#">毛衣针织</a></li>
+                <li><a href="#">卫衣绒衫</a></li>
+                <li><a href="#">休闲套装</a></li>
+           </ul>
+        </div>
+      <div class="women">
+          <h1>女装<span>Women</span></h1>
+          <ul>
+                <li><a href="#">韩风快时尚女装</a></li>
+                <li><a href="#">韩风快时尚妈妈装</a></li>
+                <li><a href="#">韩风甜美少女装</a></li>
+                <li><a href="#">东方复古设计师女装</a></li>
+                <li><a href="#">韩风名媛时尚女装</a></li>
+                <li><a href="#">欧美浪漫田园风女装</a></li>
+                <li><a href="#">韩风大码女装</a></li>
+                <li><a href="#">欧美快时尚女装</a></li>
+            </ul>
+        </div>
+      <div class="men">
+          <h1>男装<span>Men</span></h1>
+          <ul>
+                <li><a href="#">韩风快时尚男装</a></li>
+                <li><a href="#">东方禅意设计师男装</a></li>
+                <li><a href="#">欧美街头轻潮男装</a></li>
+            </ul>
+        </div>
+      <div class="child">
+          <h1>童装<span>Children</span></h1>
+          <ul>
+                <li><a href="#">韩风快时尚童装</a></li>
+                <li><a href="#">东方简约设计师童装</a></li>
+            </ul>
+        </div>
+      <div class="help">
+          <h1>帮助中心<span>Help</span></h1>
+          <ul>
+                <li><a href="#">会员制度</a></li>
+                <li><a href="#">售后服务</a></li>
+                <li><a href="#">购物流程</a></li>
+                <li><a href="#">关于发票</a></li>
+                <li><a href="#">配送方式</a></li>
+                <li><a href="#">韩都招聘</a></li>
+            </ul>
+        </div>
+    </div>
+  </div>
+<!--*****************************Logo************************************-->
+<div class="logo-box">
+	<div class="logo">
+		<div class="logo-img">
+			<a href="#"><img src="../img/logo.jpg"/></a>
+		</div>
+		<div class="search">
+			<div class="search-con">
+				<input class="logo-txt" type="text"/>
+				<input class="logo-btn" type="button" value="搜 索"/>
+			</div>
+			<ul class="search-nav">
+				<li><a href="#">寒风童装</a></li><li>|</li>
+				<li><a href="#">寒风童装</a></li><li>|</li>
+				<li><a href="#">寒风童装</a></li><li>|</li>
+				<li><a href="#">寒风童装</a></li><li>|</li>
+				<li><a href="#">寒风童装</a></li><li>|</li>
+				<li><a href="#">寒风童装</a></li>
+			</ul>
+		</div>
+		<div class="code">
+			<img src="../img/index-2ma.jpg"/>
+			<p>下载APP即送豪礼</p>
+		</div>
+	</div>
+</div>
+<!--*****************************Index-nav************************************-->
+<div class="Index-nav-box">
+	<div class="Index-nav">
+			<!--下拉部分-->
+			<div class="pulldown">
+				<h2>全部商品分类</h2>
+				<ul class="nav-list">
+					<li>
+						<h3 class="pull-h3">
+							<i><img src="../img/tb1.png"/><img src="../img/tb01.png" style="display:none"/></i><span> 全部商品分类</span><b>></b></h3>
+						<a href="#">本周新品</a>
+						<a href="#">按价格</a>
+						<a href="#">按销量</a>
+					</li>
+					<li>
+						<h3 class="pull-h3">
+							<i><img src="../img/tb2.png"/><img src="../img/tb02.png" style="display:none"/></i><span> 精选推荐</span><b>></b></h3>
+						<a href="#">连衣裙</a>
+						<a href="#">潮流爆款</a>
+						<a href="#">夏日风格</a>
+					</li>
+					<li>
+						<h3 class="pull-h3">
+							<i><img src="../img/tb3.png"/><img src="../img/tb03.png" style="display:none"/></i><span> 潮流女装</span><b>></b></h3>
+						<a href="#">t恤</a>
+						<a href="#">连衣裙</a>
+						<a href="#">牛仔裤</a>
+					</li>
+					<li>
+						<h3 class="pull-h3">
+							<i><img src="../img/tb4.png"/><img src="../img/tb04.png" style="display:none"/></i><span> 精品男装</span><b>></b></h3>
+						<a href="#">t恤</a>
+						<a href="#">衬衫</a>
+						<a href="#">裤装</a>
+					</li>
+					<li>
+						<h3 class="pull-h3">
+							<i><img src="../img/tb5.png"/><img src="../img/tb05.png" style="display:none"/></i><span> 可爱童装</span><b>></b></h3>
+						<a href="#">童装新品</a>
+						<a href="#">裙装</a>
+						<a href="#">毛衣/针织衫</a>
+					</li>
+					<li class="widthli">
+						<h3 class="pull-h3">
+							<i><img src="../img/tb6.png"/><img src="../img/tb06.png" style="display:none"/></i><span> 时尚妈妈</span><b>></b></h3>
+						<a href="#">t恤</a>
+						<a href="#">连衣裙</a>
+						<a href="#">裤装</a>
+						<a href="#">外套</a>
+					</li>
+					<li class="widthli">
+						<h3 class="pull-h3">
+							<i><img src="../img/tb7.png"/><img src="../img/tb07.png" style="display:none"/></i><span> 鞋包配饰</span><b>></b></h3>
+						<a href="#">鞋子</a>
+						<a href="#">新品</a>
+					</li>
+				</ul>
+				<!--隐藏的右拉框-->
+				<div class="righthide">
+					<div class="pulldownall pulldown1">
+							<a hre="#"><img src="../img/nana.png"/></a>
+							<a hre="#"><img src="../img/laola.png"/></a>
+							<a hre="#"><img src="../img/guoya.png"/></a>
+							<a hre="#"><img src="../img/hstyle.png"/></a>
+							<a hre="#"><img src="../img/sulv.png"/></a>
+							<a hre="#"><img src="../img/forqueen.png"/></a>
+							<a hre="#"><img src="../img/soneed.png"/></a>
+							<a hre="#"><img src="../img/hanyunyixiang.png"/></a>
+							<a hre="#"><img src="../img/ytxz.png"/></a>
+							<a hre="#"><img src="../img/nibbuns.png"/></a>
+							<a hre="#"><img src="../img/cx.png"/></a>
+							<a hre="#"><img src="../img/bly.png"/></a>
+							<a hre="#"><img src="../img/zc.png"/></a>
+							<a hre="#"><img src="../img/amh.png"/></a>
+							<a hre="#"><img src="../img/anma.png"/></a>
+							<a hre="#"><img src="../img/zg.png"/></a>
+							<a hre="#"><img src="../img/mini.png"/></a>
+							<a hre="#"><img src="../img/hp.png"/></a>
+							<a hre="#"><img src="../img/dx1.png"/></a>	
+					</div>
+					<div class="pulldownall pulldown2">
+						<div class="tehui">
+							<p>特惠精品</p>
+							<a href="#">夏季清仓</a>|<a href="#">爆款特惠</a>
+						</div>
+						<div class="tehui">
+							<p>特惠精品</p>
+							<a href="#">夏季清仓</a>|<a href="#">爆款特惠</a>
+						</div>
+						<div class="tehui">
+							<p>特惠精品</p>
+							<a href="#">夏季清仓</a>|<a href="#">爆款特惠</a>
+						</div>
+						<div class="tehui">
+							<p>特惠精品</p>
+							<a href="#">夏季清仓</a>|<a href="#">爆款特惠</a>
+						</div>
+						<div class="tehui">
+							<p>特惠精品</p>
+							<a href="#">夏季清仓</a>|<a href="#">爆款特惠</a>
+						</div>
+						<div class="tehui">
+							<p>特惠精品</p>
+							<a href="#">夏季清仓</a>|<a href="#">爆款特惠</a>
+						</div>
+					</div>
+					<div class="pulldownall pulldown3">
+							<div class="tehui">
+							<p>特惠精品</p>
+							<a href="#">夏季清仓</a>|<a href="#">爆款特惠</a>
+						</div>
+						<div class="tehui">
+							<p>特惠精品</p>
+							<a href="#">夏季清仓</a>|<a href="#">爆款特惠</a>|<a href="#">夏季清仓</a>|<a href="#">爆款特惠</a>|<a href="#">夏季清仓</a>|<a href="#">爆款特惠</a>
+						</div>
+						<div class="tehui">
+							<p>特惠精品</p>
+							<a href="#">夏季清仓</a>|<a href="#">爆款特惠</a>
+						</div>
+						<div class="tehui">
+							<p>特惠精品</p>
+							<a href="#">夏季清仓</a>|<a href="#">爆款特惠</a>|<a href="#">夏季清仓</a>|<a href="#">爆款特惠</a>|<a href="#">夏季清仓</a>|<a href="#">爆款特惠</a>|<a href="#">夏季清仓</a>|<a href="#">爆款特惠</a>
+						</div>
+						<a hre="#"><img src="../img/hanyunyixiang.png"/></a>
+							<a hre="#"><img src="../img/ytxz.png"/></a>
+							<a hre="#"><img src="../img/nibbuns.png"/></a>
+							<a hre="#"><img src="../img/cx.png"/></a>
+							<a hre="#"><img src="../img/bly.png"/></a>
+							<a hre="#"><img src="../img/zc.png"/></a>
+							<a hre="#"><img src="../img/amh.png"/></a>
+							<a hre="#"><img src="../img/anma.png"/></a>
+							<a hre="#"><img src="../img/zg.png"/></a>
+							<a hre="#"><img src="../img/mini.png"/></a>
+							<a hre="#"><img src="../img/hp.png"/></a>
+							<a hre="#"><img src="../img/dx1.png"/></a>	
+					</div>
+					<div class="pulldownall pulldown4">
+							<div class="tehui">
+							<p>特惠精品</p>
+							<a href="#">夏季清仓</a>|<a href="#">爆款特惠</a>
+						</div>
+						<div class="tehui">
+							<p>特惠精品</p>
+							<a href="#">夏季清仓</a>|<a href="#">爆款特惠</a>
+						</div>
+						<div class="tehui">
+							<p>特惠精品</p>
+							<a href="#">夏季清仓</a>|<a href="#">爆款特惠</a>
+						</div>
+						<div class="tehui">
+							<p>特惠精品</p>
+							<a href="#">夏季清仓</a>|<a href="#">爆款特惠</a>
+						</div>
+						
+							<a hre="#"><img src="../img/zg.png"/></a>
+							<a hre="#"><img src="../img/mini.png"/></a>
+							<a hre="#"><img src="../img/hp.png"/></a>
+							<a hre="#"><img src="../img/dx1.png"/></a>
+					</div>
+					<div class="pulldownall pulldown5">
+							<div class="tehui">
+							<p>特惠精品</p>
+							<a href="#">夏季清仓</a>|<a href="#">爆款特惠</a>
+						</div>
+						<div class="tehui">
+							<p>特惠精品</p>
+							<a href="#">夏季清仓</a>|<a href="#">爆款特惠</a>
+						</div>
+						<div class="tehui">
+							<p>特惠精品</p>
+							<a href="#">夏季清仓</a>|<a href="#">爆款特惠</a>
+						</div>
+						<div class="tehui">
+							<p>特惠精品</p>
+							<a href="#">夏季清仓</a>|<a href="#">爆款特惠</a>
+						</div>
+						<div class="tehui">
+							<p>特惠精品</p>
+							<a href="#">夏季清仓</a>|<a href="#">爆款特惠</a>
+						</div>
+						<div class="tehui">
+							<p>特惠精品</p>
+							<a href="#">夏季清仓</a>|<a href="#">爆款特惠</a>
+						</div>
+					</div>
+					<div class="pulldownall pulldown6">
+							<div class="tehui">
+							<p>特惠精品</p>
+							<a href="#">夏季清仓</a>|<a href="#">爆款特惠</a>
+							</div>
+							<a hre="#"><img src="../img/zg.png"/></a>
+					</div>							
+				</div>
+				<!--隐藏的右拉框结束-->
+			</div>
+			<!--夏季流行趋势部分-->
+			<ul class="navRight">
+				<li><a href="#">夏季流行趋势</a></li>
+				<li><a href="#">会员专享</a></li>
+				<li><a href="#">团购批发</a></li>
+			</ul>
+			<ul class="selectnav">
+				<li class="viphover"><a href="#">会员俱乐部 <img src="../img/sjt.png"/></a>
+					<ul class="vipclub">
+						<li><a href="#">韩都真人秀</a></li>
+						<li><a href="#">好评有礼</a></li>
+					</ul>
+				</li>
+				<li class="handuhover"><a href="#">韩都资讯 <img src="../img/sjt.png"/></a>
+					<ul class="handunews">
+						<li><a href="#">韩都设计</a></li>
+						<li><a href="#">品牌设计</a></li>
+					</ul>
+				</li>
+				<li><a href="#">招兵买马</a></li>
+			</ul>
+	</div>
+</div>
+<!--------------------position------------------------>
+<div class="webposition">
+	<div class="webpositioncon">
+		<div class="weizhi"> 您所在的位置  <code>&gt;</code> <a href="#">韩都衣舍</a> <code>&gt;</code> <a href="#">HSTYLE女装	</a> <code>&gt;</code> <a href="#">裙装</a> <code>&gt;</code> <a href="#">连衣裙</a> <code>&gt;</code> 
+		<span>韩都衣舍2016韩女秋新款刺绣织带拼接圆领显瘦连衣裙NW6268</span>
+		</div>
+	</div> 
+</div>
+<!--****************************main*******************************-->
+<div class="main">
+<div class="maincon">
+		<div class="mainleft">
+			<h3></h3>
+			<div class="fenlei">
+				<p><span><span><a href="#">连衣裙</a></p>
+				<p><span><span><a href="#">半身裙</a></p>
+				<p><span><span><a href="#">超短裙</a></p>
+				<p><span><span><a href="#">短裤</a></p>
+				<p><span><span><a href="#">休闲裙</a></p>
+				<p><span><span><a href="#">长裙</a></p>
+			</div>
+			<a href="#"><img src="../img/baokuan149.jpg"/></a>
+			<h4></h4>
+		
+			<div class="shopcon">
+				<div class="everyshop">
+					<a href="#"><img src="../img/hanyi1974.jpg"/></a>
+					<p><a href="#">韩都衣舍2016韩版女装夏装新款圆领宽松印花短袖T恤KY6586湲</a></p>
+					<p>￥168.00</p>
+					<del>￥168.00</del>
+				</div>
+				<div class="everyshop">
+					<a href="#"><img src="../img/hanyi1974.jpg"/></a>
+					<p><a href="#">韩都衣舍2016韩版女装夏装新款圆领宽松印花短袖T恤KY6586湲</a></p>
+					<p>￥168.00</p>
+					<del>￥168.00</del>
+				</div>
+				<div class="everyshop">
+					<a href="#"><img src="../img/hanyi1974.jpg"/></a>
+					<p><a href="#">韩都衣舍2016韩版女装夏装新款圆领宽松印花短袖T恤KY6586湲</a></p>
+					<p>￥168.00</p>
+					<del>￥168.00</del>
+				</div>
+				<div class="everyshop">
+					<a href="#"><img src="../img/hanyi1974.jpg"/></a>
+					<p><a href="#">韩都衣舍2016韩版女装夏装新款圆领宽松印花短袖T恤KY6586湲</a></p>
+					<p>￥168.00</p>
+					<del>￥168.00</del>
+				</div>
+				<div class="everyshop">
+					<a href="#"><img src="../img/hanyi1974.jpg"/></a>
+					<p><a href="#">韩都衣舍2016韩版女装夏装新款圆领宽松印花短袖T恤KY6586湲</a></p>
+					<p>￥168.00</p>
+					<del>￥168.00</del>
+				</div>
+			</div>
+			<h4></h4>
+			<div class="shopcon">
+				<div class="everyshop">
+					<a href="#"><img src="../img/renqi.jpg"/></a>
+					<p><a href="#">韩都衣舍2016韩版女装夏装新款圆领宽松印花短袖T恤KY6586湲</a></p>
+					<p>￥168.00</p>
+					<del>￥168.00</del>
+				</div>
+				<div class="everyshop">
+					<a href="#"><img src="../img/renqi.jpg"/></a>
+					<p><a href="#">韩都衣舍2016韩版女装夏装新款圆领宽松印花短袖T恤KY6586湲</a></p>
+					<p>￥168.00</p>
+					<del>￥168.00</del>
+				</div>
+				<div class="everyshop">
+					<a href="#"><img src="../img/renqi.jpg"/></a>
+					<p><a href="#">韩都衣舍2016韩版女装夏装新款圆领宽松印花短袖T恤KY6586湲</a></p>
+					<p>￥168.00</p>
+					<del>￥168.00</del>
+				</div>
+				<div class="everyshop">
+					<a href="#"><img src="../img/renqi.jpg"/></a>
+					<p><a href="#">韩都衣舍2016韩版女装夏装新款圆领宽松印花短袖T恤KY6586湲</a></p>
+					<p>￥168.00</p>
+					<del>￥168.00</del>
+				</div>
+				<div class="everyshop">
+					<a href="#"><img src="../img/renqi.jpg"/></a>
+					<p><a href="#">韩都衣舍2016韩版女装夏装新款圆领宽松印花短袖T恤KY6586湲</a></p>
+					<p>￥168.00</p>
+					<del>￥168.00</del>
+				</div>
+			</div>
+			<a href="#"><img src="../img/lipin.jpg"/></a>
+		</div>
+		<div class="mainright">
+			<div class="righttop">
+				<div class="fangda">
+				<!---放大镜--->
+						<div id="demo">
+							<div id="small-box">
+								<div id="mark"></div>
+								
+								<div id="float-box"></div>
+								<img id="hidepic" src="../img/fangdapic.jpg"/>
+							</div>
+							<div id="big-box">
+								<img id="fangdapicid" src="../img/fangdapic.jpg"/>
+							</div>
+						</div>
+				<!---放大镜end--->
+						<div class="xiaopiccon">
+							<div class="xiaopic">
+								<p><img id="goodspic" src="../img/fangdapic.jpg"/></p>
+								<p><img src="../img/fangdapic2.jpg"/></p>
+								<p><img src="../img/fangdapic3.jpg"/></p>
+								<p><img src="../img/fangdapic4.jpg"/></p>
+								<p><img src="../img/fangdapic5.jpg"/></p>
+							</div>
+							<div class="fenxiangpic">
+								<a href="#" class="shoucang">收藏（3）</a>
+								<div class="fenxianglist">
+									<span class="fxd">分享到：</span>
+									<a href="a" class="fxqq"></a>
+									<a href="a" class="xlwb"></a>
+									<a href="a" class="txwb"></a>
+									<a href="a" class="renren"></a>
+									<a href="a" class="wangyi"></a>
+									<a href="a" id="leiji">0</a>
+								</div>
+							</div>
+						</div>
+						<div class="hidefx">
+							<h5>分享到</h5>
+							<div class="fxbox">
+									<ul class="fxlist">
+										<li><a href="#">一键分享</a></li>
+										<li><a href="#">一键分享</a></li>
+										<li><a href="#">一键分享</a></li>
+										<li><a href="#">一键分享</a></li>
+										<li><a href="#">一键分享</a></li>
+										<li><a href="#">一键分享</a></li>
+										<li><a href="#">一键分享</a></li>
+										<li><a href="#">一键分享</a></li>
+									</ul>
+									<ul class="fxlist">
+										<li><a href="#">一键分享</a></li>
+										<li><a href="#">一键分享</a></li>
+										<li><a href="#">一键分享</a></li>
+										<li><a href="#">一键分享</a></li>
+										<li><a href="#">一键分享</a></li>
+										<li><a href="#">一键分享</a></li>
+										<li><a href="#">一键分享</a></li>
+										<li><a href="#">一键分享</a></li>
+									</ul>
+							</div>
+							<h6><a href="#">百度分享</a></h6>
+						</div>
+				</div>
+				<div class="xinxi">
+					<div class="xinxitop">
+						<h2>韩都衣舍2016韩女秋新圆领纯色T恤JT6323娮</h2>
+						<ul class="huohao">
+							<li>商品货号：&nbsp;&nbsp;NW6268&nbsp;&nbsp;市场价：<del class="yuanjia">￥518</del><li>
+							<li>售&nbsp;&nbsp;价：&nbsp;<span>￥</span><span id="jiageid">258.00</span></li>
+							<li>销&nbsp;&nbsp;量：&nbsp;&nbsp;<b>8件</b></li>
+							<li>用户评价：<span class="star"></span><i>（共有<a href="#">0</a>条评论）</i><li>
+						</ul>
+					</div>
+				<script>
+					
+				</script>
+					<div class="xinxicenter">
+						<ul class="rule">
+							<li class="chicun">尺&nbsp;&nbsp;寸：&nbsp;<span>S</span><span>M</span><span>L</span></li>
+							<li class="yanse">颜&nbsp;&nbsp;色：&nbsp;<span>藏蓝色</span><span>粉色</span></li>
+							<li>数&nbsp;&nbsp;量: &nbsp;<b class="jian">-</b><input type="text" value="1" class="shuliang"/><b class="jia">+</b><i>（仓库354件）</i>
+							</li>
+							<p class="tishi"></p>
+							<li><a href="#" class="paybtn"><a href="javascript:void(0);" class="pushbtn"></a></li>
+						</ul>
+					</div>
+					<div class="xinxibottom">
+						<li>在线客服： <span class="kefuqq"><a href="#"><img src="../img/kefuqq.jpg"></a></span><span class="guanfangwx">官方微信</span><span class="wxcode"><img class="wxcode" src="../img/wxcode.jpg"></span><span><img class="sys" src="../img/sys.gif"/></span></li>
+						<li class='zfway'>支付方式：<a href="#">支付宝</a><a href="#">网上银行付款</a><span class="fw">服务承若：</span><span class="zheng7tui"></span></li>
+						<img class="erweima" src="../img/erweima.jpg"/>
+					</div>
+				</div>
+		</div>
+		<div class="rightbottom">
+				<div class="seltop">
+					<ul class="selbox">
+						<li class="redbordertop"><span>商品详情</span></li>
+						<li><span>评价详情<b>(0)</b></span></li>
+						<li><span>常见问题</span></li>
+					</ul>
+				</div>
+			<div class="selcontent piccontent">
+				<ul class="jieshao">
+					<li>品牌: HSTYLE女装</li>
+					<li>货号：YK6294</li>
+					<li>尺码:  S  M  L   </li>
+					<li>颜色: 白色</li>                     
+				</ul>
+				<a href="#"><img src="../img/haoli.jpg"/></a>
+				<a href="#"><img src="../img/mingxing.jpg"/></a>
+				<a href="#"><img src="../img/allpinpai.jpg"/></a>
+				<a href="#"><img src="../img/qingcang.jpg"/></a>
+				<a href="#"><img width='185px' src="../img/huodongjia1.jpg"/></a>
+				<a href="#"><img width='185px' src="../img/huodongjia1.jpg"/></a>
+				<a href="#"><img width='185px' src="../img/huodongjia1.jpg"/></a>
+				<a href="#"><img width='185px' src="../img/huodongjia1.jpg"/></a>
+				<a href="#"><img width='185px' src="../img/huodongjia2.jpg"/></a>
+				<a href="#"><img width='185px' src="../img/huodongjia2.jpg"/></a>
+				<a href="#"><img width='185px' src="../img/huodongjia2.jpg"/></a>
+				<a href="#"><img width='185px' src="../img/huodongjia2.jpg"/></a>
+				<a href="#"><img width='185px' src="../img/huodongjia3.jpg"/></a>
+				<a href="#"><img width='185px' src="../img/huodongjia3.jpg"/></a>
+				<a href="#"><img width='185px' src="../img/huodongjia3.jpg"/></a>
+				<a href="#"><img width='185px' src="../img/huodongjia3.jpg"/></a>
+				<div class="cpxx" style="padding-bottom: 20px;padding-left: 0px;width: 100%;padding-right: 0px;text-align:center;background: #fff;height: auto;padding-top: 20px;"><img src="../img/chanpinxinxi.gif"/></div>
+				<table style="border-bottom:#e5e5e5 1px solid;text-align:center;border-left:#e5e5e5 1px solid;margin:0px auto 20px;font-family:microsoft yahei;background:#fff;color:#5c5c5c;font-size:24px;border-top:#e5e5e5 1px solid;border-right:#e5e5e5 1px solid;" class="ke-zeroborder" border="0" cellspacing="0" cellpadding="0" width="100%" align="center">
+						<tr>
+							<td bgcolor="#f7f7f7" height="50" width="111">
+								<b>货号</b>
+							</td>
+							<td bgcolor="#f7f7f7" height="50" align="left">
+								JQ5787
+							</td>
+						</tr>
+						<tr>
+							<td height="50">
+								<b>尺码</b>
+							</td>
+							<td height="50" align="left">
+								S M L
+							</td>
+						</tr>
+						<tr>
+							<td bgcolor="#f7f7f7" height="50">
+								<b>颜色</b>
+							</td>
+							<td bgcolor="#f7f7f7" height="50" align="left">
+								灰色
+							</td>
+						</tr>
+						<tr>
+							<td height="50">
+								<b>成分</b>
+							</td>
+							<td height="50" align="left">
+								大身:73%聚酯纤维27%粘纤 袖子:100%聚酯纤维
+							</td>
+						</tr>
+						<tr>
+							<td bgcolor="#f7f7f7" height="50">
+								<b>季节</b>
+							</td>
+							<td bgcolor="#f7f7f7" height="50" align="left">
+								春季 秋季 冬季
+							</td>
+						</tr>
+						<tr>
+							<td>
+								&nbsp;
+							</td>
+							<td style="padding-bottom:10px;line-height:26px;padding-left:0px;padding-right:0px;font-size:18px;padding-top:10px;" align="left">
+						注：商品详情中的价格（￥248）为该商品初次在韩都衣舍官方商城上架销售时的价格
+							</td>
+						</tr>
+			</table>
+				<img src="../img/mygirl1.jpg"/>
+				<img src="../img/mygirl2.jpg"/>
+				<img src="../img/mygirl3.jpg"/>
+				<img src="../img/mygirl4.jpg"/>
+				<img src="../img/mygirl5.jpg"/>
+				<img src="../img/mygirl6.jpg"/>
+				<img src="../img/mygirl7.jpg"/>
+				<img src="../img/mygirl8.jpg"/>
+				<img src="../img/mygirl9.jpg"/>
+				<img src="../img/mygirl10.jpg"/>
+			</div>
+			<div class="selcontent pingjia">内容2</div>
+			<div class="selcontent changjian">内容3</div>
+		</div>
+	</div>
+</div>
+</div>
+<!--**************************footer********************************-->
+<div class="footer">
+	<div class="sendgoods">
+		<ul class="bigsend">
+			<li>
+				<h4 class="newhand"></h4>
+				<ul class="smallsend">
+					<li><a href="#">用户注册</a></li>
+					<li><a href="#">购物流程</a></li>
+					<li><a href="#">网站导航</a></li>
+					<li><a href="#">帮助中心</a></li>
+				</ul>
+			</li>
+			<li>
+				<h4 class="payway"></h4>
+				<ul class="smallsend">
+					<li><a href="#">在线支付</a></li>
+					<li><a href="#">货到付款</a></li>
+					<li><a href="#">扫码支付</a></li>
+					<li><a href="#">优惠券支付</a></li>
+				</ul>
+			</li>
+			<li>
+				<h4 class="sentto"></h4>
+				<ul class="smallsend">
+					<li><a href="#">配送说明</a></li>
+					<li><a href="#">运费说明</a></li>
+					<li><a href="#">验货签收</a></li>
+					<li><a href="#">货到付款</a></li>
+				</ul>
+			</li>
+			<li>
+				<h4 class="shouhou"></h4>
+				<ul class="smallsend">
+					<li><a href="#">退换货政策</a></li>
+					<li><a href="#">退换货流程</a></li>
+				</ul>
+			</li>
+			<li>
+				<h4 class="vipcenter"></h4>
+				<ul class="smallsend">
+					<li><a href="#">会员制度</a></li>
+					<li><a href="#">会员积分</a></li>
+					<li><a href="#">好评有礼</a></li>
+				</ul>
+			</li>
+			<li>
+				<h4 class="aboutus"></h4>
+				<ul class="smallsend">
+					<li><a href="#">品牌故事</a></li>
+					<li><a href="#">媒体报道</a></li>
+					<li><a href="#">诚聘英才</a></li>
+					<li><a href="#">联系我们</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<div class="footnav">
+		<ul class="footnavcon">
+			<li><a href="#">首页</a>|</li>
+			<li><a href="#">品牌故事</a>|</li>
+			<li><a href="#">品牌故事</a>|</li>
+			<li><a href="#">品牌故事</a>|</li>
+			<li><a href="#">品牌故事</a>|</li>
+			<li><a href="#">品牌故事</a>|</li>
+			<li><a href="#">品牌故事</a>|</li>
+		</ul>
+	</div>
+	<div class="icp">
+		<img src="../img/lugongan.gif"/><b>鲁ICP备14003322号-2 © 2006-2015 handu.com All Rights Reserved.</b>
+		<a href="#"><img src="../img/gongan.png"/><span>鲁公网安备 37010202000113号</span></a>
+		<b>山东韩都衣舍电商集团有限公司，禁止非法复制</b>
+		<a href="#"><img src="../img/movepic.gif"/></a>
+	</div>
+	<div class="footpic">
+		<img src="../img/zhifubao.jpg"/>
+		<a href="#"><img src="../img/jingying.jpg"/></a>
+		<a href="#"><img src="../img/kxwz.png"/></a>
+		<img id="cctv" src="../img/cctv.png"/>
+	</div>	
+</div>
+
+<!--*********************************rightfloat*******************************************-->
+<div class="floatbox">
+  <div class="app"></div>
+  <a href="#" class="a1"></a>
+  <a href="#" class="a2"></a>
+  <a href="#" class="a3"></a>
+  <a href="#" class="a4"></a>
+  <a href="#" class="a5"></a>
+</div>
+<!--*********************************cartpopover***********************************-->
+<div class="popover">
+        <div class="popovertxt">该商品已经成功添加到购物车</div><div class="close2">×</div>
+        <div class="footer">
+            <a href="cart.html" target="_blank" class="ok"/></a>
+            <a href="javascript:;" class="close1"></a>
+        </div>
+</div>
+<!--*********************************END*******************************************-->
+</body>
