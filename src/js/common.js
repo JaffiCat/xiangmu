@@ -1,5 +1,4 @@
 
-
 //网站导航
 $(function(){
 	var $showOrhide = $('.header-box .showOrhide');
@@ -61,7 +60,7 @@ $(function(){
 				$('.righthide').hide();
 		});	
 });
-//rightfloat
+//右边悬浮返回顶部
 $(function(){
 	$(window).scroll(function(){
       var windowTop = document.documentElement.scrollTop||document.body.scrollTop;
@@ -71,7 +70,7 @@ $(function(){
       else{
 		$(".floatbox").hide();
       }
-	  //topfloat
+//顶部搜索框
 	  if(windowTop>760){
 			$('#floattop').slideDown();
 			

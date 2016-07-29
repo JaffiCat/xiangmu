@@ -149,5 +149,5 @@ width:1193px;}
 #topsearch .inputbox{position:relative;overflow:hidden;z-index:11;width:733px;height:28px;}
 #topsearch .inputbox .floattext{position:absolute; z-index:2}
 #topsearch input{height:28px;border:0;}
-#topsearch .floattext{width:646px;height:28px; line-height:28px; text-indent:5px;background-color:#fff;color:#ccc;font:14px/28px 'microsoft yahei';}
-#topsearch .floatbtn{width:87px;background:#c80a28; position:absolute;top:0px;right:0px;font:16px/28px 'microsoft yahei';color:#fff;letter-spacing: 4px;cursor: pointer;}
+#topsearch .floattext{width:646px;height:28px; line-height:28px; text-indent:5px;background-color:#fff;color:#ccc;font:14px/28px '微软雅黑';}
+#topsearch .floatbtn{width:87px;background:#c80a28; position:absolute;top:0px;right:0px;font:16px/28px '微软雅黑';color:#fff;letter-spacing: 4px;cursor: pointer;}

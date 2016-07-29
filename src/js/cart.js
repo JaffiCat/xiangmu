@@ -1,3 +1,4 @@
+//点击最近收藏、最近浏览切换div
 $(function(){
 	render();
 	$('.liulan').click(function(){
@@ -26,13 +27,13 @@ $(function(){
 		$('.zj').find('i').html(0);
 	});
 });
-
+//获取cookie，创建商品信息
 function render(){
 				var _cookie = document.cookie.split('; ');
-				// 遍历cookie
 				var $tr = $('<tr/>').addClass('productlist');
 				var $table = $('table');
 					$tr.appendTo($table);
+			// 遍历cookie
 				if(_cookie != ''){
 					$.each(_cookie,function(idx,val){
 						var info = JSON.parse(val.split('=')[1]);

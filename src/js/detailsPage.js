@@ -35,7 +35,6 @@ window.onload = function () {
                     top = 0;
                 } else if (top > (objMark.offsetHeight - objFloatBox.offsetHeight)) {
                     top = objMark.offsetHeight - objFloatBox.offsetHeight;
-
                 }
 
                 objFloatBox.style.left = left + "px";   //oSmall.offsetLeft的值是相对什么而言
@@ -141,7 +140,7 @@ $(function(){
 			var $chicun = $('.chicun').find('.selected').text();
 			var $yanse = $('.yanse').find('.selected').text();
 		//创建一个空对象
-		var goodName = 'goods';
+		var goodName = 'zjh';
 		var value = {};
 			value.imgurl = $('#goodspic').attr('src');
 			value.name = $('.xinxitop').find('h2').text();
@@ -162,5 +161,5 @@ $(function(){
 	});
 	$('.close2').on('click',function(){
 		$('.popover').hide();
-	})
+	});
 });
